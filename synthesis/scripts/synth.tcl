@@ -1,3 +1,4 @@
+#Read_Design
 source yosys_common.tcl
 source init.tcl
 
@@ -6,7 +7,7 @@ yosys read_slang --top croc_chip -F ../../croc.flist \
     --allow-use-before-declare --ignore-unknown-modules
 
 
-
+# Preserve hierarchy and blackboxes
 yosys setattr -set keep_hierarchy 1 "t:croc_soc$*"
 yosys setattr -set keep_hierarchy 1 "t:croc_domain$*"
 yosys setattr -set keep_hierarchy 1 "t:user_domain$*"
@@ -29,17 +30,16 @@ yosys setattr -set keep_hierarchy 1 "t:cdc*_dst*$*"
 yosys setattr -set keep_hierarchy 1 "t:sync$*"
 
 yosys blackbox "t:tc_sram_blackbox$*"
-
-
-# map dont_touch attribute commonly applied to output-nets of async regs to keep
 yosys attrmap -rename dont_touch keep
 yosys attrmap -tocase keep -imap keep="true" keep=1
-# copy the keep attribute to their driving cells (retain on net for debugging)
 yosys attrmvcp -copy -attr keep
 
+# Elaboration
 yosys hierarchy -top $top_design
 yosys check
 yosys proc
+
+#Coarse synthesis
 yosys opt_expr
 yosys opt -noff
 yosys fsm
@@ -51,16 +51,27 @@ yosys peepopt
 yosys opt_clean
 yosys booth
 yosys share
+yosys opt -full
+yosys clean -purge
+
 yosys tee -q -o "${rep_dir}/${top_design}_generic.rpt" stat -tech cmos
 yosys clean -purge
+yosys opt_dff -sat -nodffe -nosdff
+
 
 yosys techmap
+yosys opt -fast
+yosys clean -purge
+
 yosys dfflibmap {*}$tech_cells_args
+
+#ABC
 set period_ps 10000
 yosys abc {*}$tech_cells_args -D $period_ps
-yosys flatten
-
+yosys dfflibmap {*}$tech_cells_args
 yosys clean -purge
+
+#Post-mapping cleanup
 
 yosys splitnets -format __v
 yosys rename -wire -suffix _reg t:*DFF*
@@ -70,7 +81,8 @@ yosys clean -purge
 
 yosys tee -q -o ${rep_dir}/${top_design}_instances.rpt  select -list "t:RM_IHPSG13_*"
 yosys tee -q -a ${rep_dir}/${top_design}_instances.rpt  select -list "t:tc_clk*$*"
-
+yosys flatten
+yosys clean -purge
 
 # -----------------------------------------------------------------------------
 # prep for openROAD
