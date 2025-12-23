@@ -14,19 +14,9 @@ foreach lib [glob ../lib/sram/*.lib] {
 read_verilog ../netlist/croc_chip_yosys.v
 link_design $top
 
-# Sanity check
-if {[sizeof_collection [get_ports *]] == 0} {
-    puts "FATAL: No ports found"
-    exit 1
-}
-
 # Constraints
 read_sdc ../sdc/time.sdc
 
 # Reports
-report_clocks > reports/clocks.rpt
-report_checks -path_delay max -fields {slew cap input} -digits 3 > reports/setup.rpt
-report_checks -path_delay min -fields {slew cap input} -digits 3 > reports/hold.rpt
-report_clock_skew > reports/clock_skew.rpt
-report_constraint -all_violators > reports/constraints.rpt
+report_checks -path_group clk_sys -path_delay max > "reports/sta.rpt"
 

@@ -13,4 +13,25 @@ foreach {var spec} $variables {
         set $var $default
     }
 }
+proc processAbcScript {abc_script} {
+    global tmp_dir
+    file mkdir $tmp_dir
+
+    set src_dir [file join [file dirname [info script]] ../src]
+    set abc_out_path [file join $tmp_dir [file tail $abc_script]]
+
+    set f [open $abc_script r]
+    set raw [read -nonewline $f]
+    close $f
+
+    set abc_script_recaig [string map -nocase \
+        [list "{REC_AIG}" "$src_dir/lazy_man_synth_library.aig"] $raw]
+
+    set abc_out [open $abc_out_path w]
+    puts -nonewline $abc_out $abc_script_recaig
+    close $abc_out
+
+    return $abc_out_path
+}
+
 

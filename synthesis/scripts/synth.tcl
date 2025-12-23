@@ -2,10 +2,14 @@
 source yosys_common.tcl
 source init.tcl
 
+
+set script_dir [file dirname [info script]]
+set abc_constr_file [file normalize "abc.constr"]
+
 yosys read_slang --top croc_chip -F ../../croc.flist \
     --compat-mode --keep-hierarchy \
     --allow-use-before-declare --ignore-unknown-modules
-
+set abc_script [processAbcScript abc-opt.script]
 
 # Preserve hierarchy and blackboxes
 yosys setattr -set keep_hierarchy 1 "t:croc_soc$*"
@@ -67,7 +71,16 @@ yosys dfflibmap {*}$tech_cells_args
 
 #ABC
 set period_ps 10000
-yosys abc {*}$tech_cells_args -D $period_ps
+
+set period_ps 10000
+set abc_comb_script [processAbcScript abc-opt.script]
+
+yosys abc {*}$tech_cells_args -D $period_ps \
+  -script $abc_comb_script \
+  -constr $abc_constr_file \
+  -showtmp
+
+
 yosys dfflibmap {*}$tech_cells_args
 yosys clean -purge
 
