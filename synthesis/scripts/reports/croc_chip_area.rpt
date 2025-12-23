@@ -1,0 +1,2276 @@
+
+43. Printing statistics.
+
+=== cdc_2phase_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      148        - wires
+      148        - wire bits
+      147        - public wires
+      147        - public wire bits
+       94        - ports
+       94        - port bits
+        9   43.546 cells
+        4        -   $_ALDFF_PN_
+        4   36.288   sg13g2_nor2b_1
+        1    7.258   sg13g2_tielo
+        3        - submodules
+        1        -   cdc_2phase_dst_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_dst
+        1        -   cdc_2phase_src_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_src
+        1        -   cdc_reset_ctrlr$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_2phase_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req': 43.545600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cdc_2phase_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      127        - wires
+      127        - wire bits
+      126        - public wires
+      126        - public wire bits
+       80        - ports
+       80        - port bits
+        9   43.546 cells
+        4        -   $_ALDFF_PN_
+        4   36.288   sg13g2_nor2b_1
+        1    7.258   sg13g2_tielo
+        3        - submodules
+        1        -   cdc_2phase_dst_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_dst
+        1        -   cdc_2phase_src_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_src
+        1        -   cdc_reset_ctrlr$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_2phase_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp': 43.545600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cdc_2phase_dst_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_dst ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      182        - wires
+      182        - wire bits
+      180        - public wires
+      180        - public wire bits
+       89        - ports
+       89        - port bits
+       93 2.83E+03 cells
+        2        -   $_ALDFF_PN_
+        2   18.144   sg13g2_a21oi_1
+       41 2.01E+03   sg13g2_dfrbpq_1
+       41  743.904   sg13g2_mux2_1
+        1    7.258   sg13g2_nand2_1
+        1    9.072   sg13g2_nand2b_1
+        1    9.072   sg13g2_nor2b_1
+        1    9.072   sg13g2_o21ai_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+        1   14.515   sg13g2_xor2_1
+        1        - submodules
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_dst.i_sync
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_2phase_dst_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_dst': 2834.092800
+     of which used for sequential elements: 2008.540800 (70.87%)
+
+=== cdc_2phase_dst_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_dst ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      154        - wires
+      154        - wire bits
+      152        - public wires
+      152        - public wire bits
+       75        - ports
+       75        - port bits
+       79 2.36E+03 cells
+        2        -   $_ALDFF_PN_
+        2   18.144   sg13g2_a21oi_1
+       34 1.67E+03   sg13g2_dfrbpq_1
+       34  616.896   sg13g2_mux2_1
+        1    7.258   sg13g2_nand2_1
+        1    9.072   sg13g2_nand2b_1
+        1    9.072   sg13g2_nor2b_1
+        1    9.072   sg13g2_o21ai_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+        1   14.515   sg13g2_xor2_1
+        1        - submodules
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_dst.i_sync
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_2phase_dst_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_dst': 2364.163200
+     of which used for sequential elements: 1665.619200 (70.45%)
+
+=== cdc_2phase_src_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_src ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      179        - wires
+      179        - wire bits
+      177        - public wires
+      177        - public wire bits
+       89        - ports
+       89        - port bits
+       90 2.82E+03 cells
+        1        -   $_ALDFF_PN_
+        1    9.072   sg13g2_a21oi_1
+        1   12.701   sg13g2_and3_1
+       41 2.01E+03   sg13g2_dfrbpq_1
+        1    5.443   sg13g2_inv_1
+       41  743.904   sg13g2_mux2_1
+        1    9.072   sg13g2_o21ai_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+        1   14.515   sg13g2_xnor2_1
+        1        - submodules
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_src.i_sync
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_2phase_src_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_src': 2817.763200
+     of which used for sequential elements: 2008.540800 (71.28%)
+
+=== cdc_2phase_src_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_src ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      151        - wires
+      151        - wire bits
+      149        - public wires
+      149        - public wire bits
+       75        - ports
+       75        - port bits
+       76 2.35E+03 cells
+        1        -   $_ALDFF_PN_
+        1    9.072   sg13g2_a21oi_1
+        1   12.701   sg13g2_and3_1
+       34 1.67E+03   sg13g2_dfrbpq_1
+        1    5.443   sg13g2_inv_1
+       34  616.896   sg13g2_mux2_1
+        1    9.072   sg13g2_o21ai_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+        1   14.515   sg13g2_xnor2_1
+        1        - submodules
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_src.i_sync
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_2phase_src_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_src': 2347.833600
+     of which used for sequential elements: 1665.619200 (70.94%)
+
+=== cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       23        - wires
+       23        - wire bits
+       22        - public wires
+       22        - public wire bits
+       10        - ports
+       10        - port bits
+       13   87.091 cells
+        3        -   $_ALDFF_PN_
+        1    9.072   sg13g2_a21oi_1
+        1    5.443   sg13g2_inv_1
+        1    7.258   sg13g2_nand2_1
+        2   18.144   sg13g2_nand2b_1
+        1   12.701   sg13g2_nand3b_1
+        1    9.072   sg13g2_nor3_1
+        1    9.072   sg13g2_o21ai_1
+        1    9.072   sg13g2_or2_1
+        1    7.258   sg13g2_tielo
+        1        - submodules
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst.i_sync
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst': 87.091200
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       23        - wires
+       23        - wire bits
+       22        - public wires
+       22        - public wire bits
+       10        - ports
+       10        - port bits
+       13   87.091 cells
+        3        -   $_ALDFF_PN_
+        1    9.072   sg13g2_a21oi_1
+        1    5.443   sg13g2_inv_1
+        1    7.258   sg13g2_nand2_1
+        2   18.144   sg13g2_nand2b_1
+        1   12.701   sg13g2_nand3b_1
+        1    9.072   sg13g2_nor3_1
+        1    9.072   sg13g2_o21ai_1
+        1    9.072   sg13g2_or2_1
+        1    7.258   sg13g2_tielo
+        1        - submodules
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst.i_sync
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst': 87.091200
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       23        - wires
+       23        - wire bits
+       22        - public wires
+       22        - public wire bits
+       10        - ports
+       10        - port bits
+       13   87.091 cells
+        3        -   $_ALDFF_PN_
+        1    9.072   sg13g2_a21oi_1
+        1    5.443   sg13g2_inv_1
+        1    7.258   sg13g2_nand2_1
+        2   18.144   sg13g2_nand2b_1
+        1   12.701   sg13g2_nand3b_1
+        1    9.072   sg13g2_nor3_1
+        1    9.072   sg13g2_o21ai_1
+        1    9.072   sg13g2_or2_1
+        1    7.258   sg13g2_tielo
+        1        - submodules
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst.i_sync
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst': 87.091200
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       23        - wires
+       23        - wire bits
+       22        - public wires
+       22        - public wire bits
+       10        - ports
+       10        - port bits
+       13   87.091 cells
+        3        -   $_ALDFF_PN_
+        1    9.072   sg13g2_a21oi_1
+        1    5.443   sg13g2_inv_1
+        1    7.258   sg13g2_nand2_1
+        2   18.144   sg13g2_nand2b_1
+        1   12.701   sg13g2_nand3b_1
+        1    9.072   sg13g2_nor3_1
+        1    9.072   sg13g2_o21ai_1
+        1    9.072   sg13g2_or2_1
+        1    7.258   sg13g2_tielo
+        1        - submodules
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst.i_sync
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst': 87.091200
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       29        - wires
+       29        - wire bits
+       27        - public wires
+       27        - public wire bits
+       10        - ports
+       10        - port bits
+       19  130.637 cells
+        5        -   $_ALDFF_PN_
+        1    9.072   sg13g2_a21oi_1
+        2   10.886   sg13g2_inv_1
+        2   36.288   sg13g2_mux2_1
+        2   18.144   sg13g2_nand2b_1
+        2   14.515   sg13g2_nor2_1
+        1    9.072   sg13g2_nor3_1
+        2   18.144   sg13g2_or2_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+        1        - submodules
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src.i_sync
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src': 130.636800
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       29        - wires
+       29        - wire bits
+       27        - public wires
+       27        - public wire bits
+       10        - ports
+       10        - port bits
+       19  130.637 cells
+        5        -   $_ALDFF_PN_
+        1    9.072   sg13g2_a21oi_1
+        2   10.886   sg13g2_inv_1
+        2   36.288   sg13g2_mux2_1
+        2   18.144   sg13g2_nand2b_1
+        2   14.515   sg13g2_nor2_1
+        1    9.072   sg13g2_nor3_1
+        2   18.144   sg13g2_or2_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+        1        - submodules
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src.i_sync
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src': 130.636800
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       29        - wires
+       29        - wire bits
+       27        - public wires
+       27        - public wire bits
+       10        - ports
+       10        - port bits
+       19  130.637 cells
+        5        -   $_ALDFF_PN_
+        1    9.072   sg13g2_a21oi_1
+        2   10.886   sg13g2_inv_1
+        2   36.288   sg13g2_mux2_1
+        2   18.144   sg13g2_nand2b_1
+        2   14.515   sg13g2_nor2_1
+        1    9.072   sg13g2_nor3_1
+        2   18.144   sg13g2_or2_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+        1        - submodules
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src.i_sync
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src': 130.636800
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       29        - wires
+       29        - wire bits
+       27        - public wires
+       27        - public wire bits
+       10        - ports
+       10        - port bits
+       19  130.637 cells
+        5        -   $_ALDFF_PN_
+        1    9.072   sg13g2_a21oi_1
+        2   10.886   sg13g2_inv_1
+        2   36.288   sg13g2_mux2_1
+        2   18.144   sg13g2_nand2b_1
+        2   14.515   sg13g2_nor2_1
+        1    9.072   sg13g2_nor3_1
+        2   18.144   sg13g2_or2_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+        1        - submodules
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src.i_sync
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src': 130.636800
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cdc_reset_ctrlr$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       22        - wires
+       22        - wire bits
+       22        - public wires
+       22        - public wire bits
+       14        - ports
+       14        - port bits
+        2        - submodules
+        1        -   cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a
+        1        -   cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_reset_ctrlr$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr': 0.000000
+     of which used for sequential elements: 0.000000 (-nan%)
+
+=== cdc_reset_ctrlr$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       22        - wires
+       22        - wire bits
+       22        - public wires
+       22        - public wire bits
+       14        - ports
+       14        - port bits
+        2        - submodules
+        1        -   cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a
+        1        -   cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_reset_ctrlr$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr': 0.000000
+     of which used for sequential elements: 0.000000 (-nan%)
+
+=== cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       81        - wires
+       81        - wire bits
+       79        - public wires
+       79        - public wire bits
+       15        - ports
+       15        - port bits
+       64  524.248 cells
+        6        -   $_ALDFF_PN_
+        2   25.402   sg13g2_a21o_1
+        2   18.144   sg13g2_a21oi_1
+        2    29.03   sg13g2_a221oi_1
+        3   32.546   sg13g2_a22oi_1
+        1    9.072   sg13g2_and2_1
+        6   32.659   sg13g2_inv_1
+        1   18.144   sg13g2_mux2_1
+        5   36.288   sg13g2_nand2_1
+        4   36.288   sg13g2_nand2b_1
+        3   27.216   sg13g2_nand3_1
+        2   25.402   sg13g2_nand3b_1
+        2   21.773   sg13g2_nand4_1
+        9   65.318   sg13g2_nor2_1
+        4   36.288   sg13g2_nor2b_1
+        1    9.072   sg13g2_nor3_1
+        1   10.886   sg13g2_nor4_1
+        5    45.36   sg13g2_o21ai_1
+        2   18.144   sg13g2_or2_1
+        1   12.701   sg13g2_or3_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+        2        - submodules
+        1        -   cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst
+        1        -   cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a': 524.248200
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       81        - wires
+       81        - wire bits
+       79        - public wires
+       79        - public wire bits
+       15        - ports
+       15        - port bits
+       64  524.248 cells
+        6        -   $_ALDFF_PN_
+        2   25.402   sg13g2_a21o_1
+        2   18.144   sg13g2_a21oi_1
+        2    29.03   sg13g2_a221oi_1
+        3   32.546   sg13g2_a22oi_1
+        1    9.072   sg13g2_and2_1
+        6   32.659   sg13g2_inv_1
+        1   18.144   sg13g2_mux2_1
+        5   36.288   sg13g2_nand2_1
+        4   36.288   sg13g2_nand2b_1
+        3   27.216   sg13g2_nand3_1
+        2   25.402   sg13g2_nand3b_1
+        2   21.773   sg13g2_nand4_1
+        9   65.318   sg13g2_nor2_1
+        4   36.288   sg13g2_nor2b_1
+        1    9.072   sg13g2_nor3_1
+        1   10.886   sg13g2_nor4_1
+        5    45.36   sg13g2_o21ai_1
+        2   18.144   sg13g2_or2_1
+        1   12.701   sg13g2_or3_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+        2        - submodules
+        1        -   cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst
+        1        -   cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b': 524.248200
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       81        - wires
+       81        - wire bits
+       79        - public wires
+       79        - public wire bits
+       15        - ports
+       15        - port bits
+       64  522.434 cells
+        6        -   $_ALDFF_PN_
+        1   12.701   sg13g2_a21o_1
+        4   36.288   sg13g2_a21oi_1
+        2    29.03   sg13g2_a221oi_1
+        3   32.546   sg13g2_a22oi_1
+        5   27.216   sg13g2_inv_1
+        1   18.144   sg13g2_mux2_1
+        3   21.773   sg13g2_nand2_1
+        7   63.504   sg13g2_nand2b_1
+        3   27.216   sg13g2_nand3_1
+        2   21.773   sg13g2_nand4_1
+        8   58.061   sg13g2_nor2_1
+        4   36.288   sg13g2_nor2b_1
+        4   36.288   sg13g2_nor3_1
+        1   10.886   sg13g2_nor4_1
+        5    45.36   sg13g2_o21ai_1
+        2   18.144   sg13g2_or2_1
+        1   12.701   sg13g2_or3_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+        2        - submodules
+        1        -   cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst
+        1        -   cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a': 522.433800
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       81        - wires
+       81        - wire bits
+       79        - public wires
+       79        - public wire bits
+       15        - ports
+       15        - port bits
+       64  524.248 cells
+        6        -   $_ALDFF_PN_
+        2   25.402   sg13g2_a21o_1
+        2   18.144   sg13g2_a21oi_1
+        2    29.03   sg13g2_a221oi_1
+        3   32.546   sg13g2_a22oi_1
+        1    9.072   sg13g2_and2_1
+        6   32.659   sg13g2_inv_1
+        1   18.144   sg13g2_mux2_1
+        5   36.288   sg13g2_nand2_1
+        4   36.288   sg13g2_nand2b_1
+        3   27.216   sg13g2_nand3_1
+        2   25.402   sg13g2_nand3b_1
+        2   21.773   sg13g2_nand4_1
+        9   65.318   sg13g2_nor2_1
+        4   36.288   sg13g2_nor2b_1
+        1    9.072   sg13g2_nor3_1
+        1   10.886   sg13g2_nor4_1
+        5    45.36   sg13g2_o21ai_1
+        2   18.144   sg13g2_or2_1
+        1   12.701   sg13g2_or3_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+        2        - submodules
+        1        -   cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst
+        1        -   cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b': 524.248200
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== core_wrap$croc_chip.i_croc_soc.i_croc.i_core_wrap ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     4601        - wires
+     4601        - wire bits
+     4600        - public wires
+     4600        - public wire bits
+      229        - ports
+      229        - port bits
+     4098 3.91E+04 cells
+      384        -   $_ALDFF_PN_
+       12        -   $scopeinfo
+       43  546.134   sg13g2_a21o_1
+      390  3538.08   sg13g2_a21oi_1
+       51  740.275   sg13g2_a221oi_1
+      482 5.23E+03   sg13g2_a22oi_1
+       82  743.904   sg13g2_and2_1
+       15  190.512   sg13g2_and3_1
+       25   362.88   sg13g2_and4_1
+      195 1.06E+03   sg13g2_inv_1
+      488 8.85E+03   sg13g2_mux2_1
+       16  609.638   sg13g2_mux4_1
+      442 3.21E+03   sg13g2_nand2_1
+       85   771.12   sg13g2_nand2b_1
+      153 1.39E+03   sg13g2_nand3_1
+       26  330.221   sg13g2_nand3b_1
+       60  653.184   sg13g2_nand4_1
+      276    2E+03   sg13g2_nor2_1
+      155  1406.16   sg13g2_nor2b_1
+       82  743.904   sg13g2_nor3_1
+       44  479.002   sg13g2_nor4_1
+      375     3402   sg13g2_o21ai_1
+       55   498.96   sg13g2_or2_1
+       17  215.914   sg13g2_or3_1
+       10  145.152   sg13g2_or4_1
+        1    7.258   sg13g2_tielo
+       68  987.034   sg13g2_xnor2_1
+       66  958.003   sg13g2_xor2_1
+        2        - submodules
+        1        -   cve2_cs_registers$croc_chip.i_croc_soc.i_croc.i_core_wrap.i_ibex.cs_registers_i
+        1        -   cve2_register_file_ff$croc_chip.i_croc_soc.i_croc.i_core_wrap.i_ibex.register_file_i
+
+   Area for cell type $scopeinfo is unknown!
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\core_wrap$croc_chip.i_croc_soc.i_croc.i_core_wrap': 39073.028400
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== croc_chip ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      157        - wires
+      157        - wire bits
+      156        - public wires
+      156        - public wire bits
+       48        - ports
+       48        - port bits
+       65 9.22E+05 cells
+        4    57600   sg13g2_IOPadIOVdd
+        4    57600   sg13g2_IOPadIOVss
+        9   129600   sg13g2_IOPadIn
+       32   460800   sg13g2_IOPadInOut30mA
+        7   100800   sg13g2_IOPadOut16mA
+        4    57600   sg13g2_IOPadVdd
+        4    57600   sg13g2_IOPadVss
+        1    7.258   sg13g2_tielo
+        1        - submodules
+        1        -   croc_soc$croc_chip.i_croc_soc
+
+   Area for cell type $scopeinfo is unknown!
+   Area for cell type $_ALDFF_PN_ is unknown!
+   Area for cell type $_ALDFF_PP_ is unknown!
+
+   Chip area for module '\croc_chip': 921607.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== croc_domain$croc_chip.i_croc_soc.i_croc ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+    12178        - wires
+    12178        - wire bits
+    12176        - public wires
+    12176        - public wire bits
+      367        - ports
+      367        - port bits
+    11504 3.01E+05 cells
+      529        -   $_ALDFF_PN_
+       71        -   $scopeinfo
+        2 1.86E+05   RM_IHPSG13_1P_256x64_c2_bm_bist
+       98 1.24E+03   sg13g2_a21o_1
+      535  4853.52   sg13g2_a21oi_1
+      182 2.64E+03   sg13g2_a221oi_1
+      570 6.18E+03   sg13g2_a22oi_1
+      799 7.25E+03   sg13g2_and2_1
+       44  558.835   sg13g2_and3_1
+       49  711.245   sg13g2_and4_1
+        1    7.258   sg13g2_buf_1
+      954 5.19E+03   sg13g2_inv_1
+     1128 2.05E+04   sg13g2_mux2_1
+      174 6.63E+03   sg13g2_mux4_1
+      555 4.03E+03   sg13g2_nand2_1
+      675   6123.6   sg13g2_nand2b_1
+      239 2.17E+03   sg13g2_nand3_1
+      349 4.43E+03   sg13g2_nand3b_1
+      203 2.21E+03   sg13g2_nand4_1
+     1576 1.14E+04   sg13g2_nor2_1
+      608 5.52E+03   sg13g2_nor2b_1
+      274 2.49E+03   sg13g2_nor3_1
+      628 6.84E+03   sg13g2_nor4_1
+      791 7.18E+03   sg13g2_o21ai_1
+       45   408.24   sg13g2_or2_1
+       15  190.512   sg13g2_or3_1
+       25   362.88   sg13g2_or4_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+      229 3.32E+03   sg13g2_xnor2_1
+      154 2.24E+03   sg13g2_xor2_1
+        5        - submodules
+        1        -   core_wrap$croc_chip.i_croc_soc.i_croc.i_core_wrap
+        1        -   dm_top$croc_chip.i_croc_soc.i_croc.i_dm_top.i_dm_top
+        1        -   dmi_jtag$croc_chip.i_croc_soc.i_croc.i_dmi_jtag
+        1        -   gpio$croc_chip.i_croc_soc.i_croc.i_gpio
+        1        -   reg_uart_wrap$croc_chip.i_croc_soc.i_croc.i_uart
+
+   Area for cell type $scopeinfo is unknown!
+   Area for cell type $_ALDFF_PN_ is unknown!
+   Area for cell type $_ALDFF_PP_ is unknown!
+
+   Chip area for module '\croc_domain$croc_chip.i_croc_soc.i_croc': 301049.519600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== croc_soc$croc_chip.i_croc_soc ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      377        - wires
+      377        - wire bits
+      375        - public wires
+      375        - public wire bits
+      109        - ports
+      109        - port bits
+        8   14.515 cells
+        4        -   $_ALDFF_PN_
+        2        -   $scopeinfo
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+        6        - submodules
+        1        -   croc_domain$croc_chip.i_croc_soc.i_croc
+        1        -   sync$croc_chip.i_croc_soc.i_ext_intr_sync
+        1        -   tc_clk_mux2$croc_chip.i_croc_soc.i_rstgen.i_rstgen_bypass.i_tc_clk_mux2_init_no
+        1        -   tc_clk_mux2$croc_chip.i_croc_soc.i_rstgen.i_rstgen_bypass.i_tc_clk_mux2_rst_n
+        1        -   tc_clk_mux2$croc_chip.i_croc_soc.i_rstgen.i_rstgen_bypass.i_tc_clk_mux2_rst_no
+        1        -   user_domain$croc_chip.i_croc_soc.i_user
+
+   Area for cell type $scopeinfo is unknown!
+   Area for cell type $_ALDFF_PN_ is unknown!
+   Area for cell type $_ALDFF_PP_ is unknown!
+
+   Chip area for module '\croc_soc$croc_chip.i_croc_soc': 14.515200
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cve2_cs_registers$croc_chip.i_croc_soc.i_croc.i_core_wrap.i_ibex.cs_registers_i ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     3379        - wires
+     3379        - wire bits
+     3377        - public wires
+     3377        - public wire bits
+      581        - ports
+      581        - port bits
+     2976 2.65E+04 cells
+      497        -   $_ALDFF_PN_
+       19        -   $scopeinfo
+       49  622.339   sg13g2_a21o_1
+      142 1.29E+03   sg13g2_a21oi_1
+       44  638.669   sg13g2_a221oi_1
+      398 4.32E+03   sg13g2_a22oi_1
+       89  807.408   sg13g2_and2_1
+        7   88.906   sg13g2_and3_1
+       35  508.032   sg13g2_and4_1
+      171  930.787   sg13g2_inv_1
+      394 7.15E+03   sg13g2_mux2_1
+      174 1.26E+03   sg13g2_nand2_1
+       43  390.096   sg13g2_nand2b_1
+       41  371.952   sg13g2_nand3_1
+        6   76.205   sg13g2_nand3b_1
+       60  653.184   sg13g2_nand4_1
+      246  1785.37   sg13g2_nor2_1
+       40   362.88   sg13g2_nor2b_1
+       25    226.8   sg13g2_nor3_1
+       37  402.797   sg13g2_nor4_1
+      361 3.27E+03   sg13g2_o21ai_1
+       20   181.44   sg13g2_or2_1
+        2   25.402   sg13g2_or3_1
+        8  116.122   sg13g2_or4_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+       49  711.245   sg13g2_xnor2_1
+       17  246.758   sg13g2_xor2_1
+
+   Area for cell type $scopeinfo is unknown!
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cve2_cs_registers$croc_chip.i_croc_soc.i_croc.i_core_wrap.i_ibex.cs_registers_i': 26453.422800
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== cve2_register_file_ff$croc_chip.i_croc_soc.i_croc.i_core_wrap.i_ibex.register_file_i ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     3780        - wires
+     3780        - wire bits
+     3779        - public wires
+     3779        - public wire bits
+      115        - ports
+      115        - port bits
+     3729 4.48E+04 cells
+      992        -   $_ALDFF_PN_
+       48  609.638   sg13g2_a21o_1
+      236 2.14E+03   sg13g2_a21oi_1
+       97 1.41E+03   sg13g2_a221oi_1
+      217 2.35E+03   sg13g2_a22oi_1
+       31  281.232   sg13g2_and2_1
+       41  223.171   sg13g2_inv_1
+     1320  2.4E+04   sg13g2_mux2_1
+      253 9.64E+03   sg13g2_mux4_1
+      106  769.306   sg13g2_nand2_1
+       31  281.232   sg13g2_nand2b_1
+       10    90.72   sg13g2_nand3_1
+        3   32.659   sg13g2_nand4_1
+       68  493.517   sg13g2_nor2_1
+       22  199.584   sg13g2_nor2b_1
+       18  163.296   sg13g2_nor3_1
+        4   43.546   sg13g2_nor4_1
+      223 2.02E+03   sg13g2_o21ai_1
+        6   54.432   sg13g2_or2_1
+        2   25.402   sg13g2_or3_1
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\cve2_register_file_ff$croc_chip.i_croc_soc.i_croc.i_core_wrap.i_ibex.register_file_i': 44791.147800
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== dm_top$croc_chip.i_croc_soc.i_croc.i_dm_top.i_dm_top ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     4791        - wires
+     4791        - wire bits
+     4789        - public wires
+     4789        - public wire bits
+      360        - ports
+      360        - port bits
+     4577 3.74E+04 cells
+      729        -   $_ALDFF_PN_
+        5        -   $scopeinfo
+       40  508.032   sg13g2_a21o_1
+      665  6032.88   sg13g2_a21oi_1
+      108 1.57E+03   sg13g2_a221oi_1
+      344 3.73E+03   sg13g2_a22oi_1
+      104  943.488   sg13g2_and2_1
+       60  762.048   sg13g2_and3_1
+       16  232.243   sg13g2_and4_1
+        6   43.546   sg13g2_buf_1
+      454 2.47E+03   sg13g2_inv_1
+      249 4.52E+03   sg13g2_mux2_1
+       32 1.22E+03   sg13g2_mux4_1
+      243 1.76E+03   sg13g2_nand2_1
+       67  607.824   sg13g2_nand2b_1
+       61  553.392   sg13g2_nand3_1
+        7   88.906   sg13g2_nand3b_1
+       52  566.093   sg13g2_nand4_1
+      300  2177.28   sg13g2_nor2_1
+       49  444.528   sg13g2_nor2b_1
+       66  598.752   sg13g2_nor3_1
+       37  402.797   sg13g2_nor4_1
+      800   7257.6   sg13g2_o21ai_1
+       43  390.096   sg13g2_or2_1
+        7   88.906   sg13g2_or3_1
+        3   43.546   sg13g2_or4_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+       17  246.758   sg13g2_xnor2_1
+       11  159.667   sg13g2_xor2_1
+
+   Area for cell type $scopeinfo is unknown!
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\dm_top$croc_chip.i_croc_soc.i_croc.i_dm_top.i_dm_top': 37434.398400
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== dmi_jtag$croc_chip.i_croc_soc.i_croc.i_dmi_jtag ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     1104        - wires
+     1104        - wire bits
+     1102        - public wires
+     1102        - public wire bits
+       89        - ports
+       89        - port bits
+      981 7.51E+03 cells
+      168        -   $_ALDFF_PN_
+        2        -   $scopeinfo
+        2   25.402   sg13g2_a21o_1
+      173 1.57E+03   sg13g2_a21oi_1
+        9  130.637   sg13g2_a221oi_1
+       58  629.219   sg13g2_a22oi_1
+       14  127.008   sg13g2_and2_1
+        2   25.402   sg13g2_and3_1
+       74  402.797   sg13g2_inv_1
+       53  961.632   sg13g2_mux2_1
+      101  733.018   sg13g2_nand2_1
+       43  390.096   sg13g2_nand2b_1
+       36  326.592   sg13g2_nand3_1
+        1   12.701   sg13g2_nand3b_1
+        1   10.886   sg13g2_nand4_1
+       31  224.986   sg13g2_nor2_1
+       14  127.008   sg13g2_nor2b_1
+       50    453.6   sg13g2_nor3_1
+      140  1270.08   sg13g2_o21ai_1
+        5    45.36   sg13g2_or2_1
+        1   12.701   sg13g2_or3_1
+        1   14.515   sg13g2_or4_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+        4        - submodules
+        1        -   cdc_2phase_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req
+        1        -   cdc_2phase_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp
+        1        -   tc_clk_inverter$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_jtag_tap.i_tck_inv
+        1        -   tc_clk_mux2$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_jtag_tap.i_dft_tck_mux
+
+   Area for cell type $scopeinfo is unknown!
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\dmi_jtag$croc_chip.i_croc_soc.i_croc.i_dmi_jtag': 7507.609200
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== gpio$croc_chip.i_croc_soc.i_croc.i_gpio ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     1718        - wires
+     1718        - wire bits
+     1717        - public wires
+     1717        - public wire bits
+      244        - ports
+      244        - port bits
+     1575 1.22E+04 cells
+      272        -   $_ALDFF_PN_
+        1        -   $scopeinfo
+       29  368.323   sg13g2_a21o_1
+      115  1043.28   sg13g2_a21oi_1
+       13  188.698   sg13g2_a221oi_1
+      136 1.23E+03   sg13g2_and2_1
+       33  419.126   sg13g2_and3_1
+       29  420.941   sg13g2_and4_1
+      261 1.42E+03   sg13g2_inv_1
+      104 1.89E+03   sg13g2_mux2_1
+       58  420.941   sg13g2_nand2_1
+       34  308.448   sg13g2_nand2b_1
+       12  108.864   sg13g2_nand3_1
+        3   38.102   sg13g2_nand3b_1
+        3   32.659   sg13g2_nand4_1
+       30  217.728   sg13g2_nor2_1
+       65   589.68   sg13g2_nor2b_1
+      206 1.87E+03   sg13g2_nor3_1
+       61   664.07   sg13g2_nor4_1
+      105   952.56   sg13g2_o21ai_1
+        2   18.144   sg13g2_or2_1
+        1   12.701   sg13g2_or3_1
+        1   14.515   sg13g2_or4_1
+        1    7.258   sg13g2_tielo
+       32        - submodules
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[0].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[10].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[11].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[12].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[13].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[14].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[15].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[16].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[17].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[18].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[19].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[1].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[20].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[21].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[22].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[23].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[24].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[25].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[26].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[27].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[28].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[29].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[2].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[30].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[31].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[3].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[4].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[5].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[6].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[7].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[8].i_sync
+        1        -   sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[9].i_sync
+
+   Area for cell type $scopeinfo is unknown!
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\gpio$croc_chip.i_croc_soc.i_croc.i_gpio': 12236.313600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== reg_uart_wrap$croc_chip.i_croc_soc.i_croc.i_uart ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+     4842        - wires
+     4842        - wire bits
+     4840        - public wires
+     4840        - public wire bits
+      117        - ports
+      117        - port bits
+     4770 4.92E+04 cells
+      113        -   $_ALDFF_PN_
+     1372        -   $_ALDFF_PP_
+       30        -   $scopeinfo
+       18  228.614   sg13g2_a21o_1
+      229 2.08E+03   sg13g2_a21oi_1
+       30  435.456   sg13g2_a221oi_1
+       56  607.522   sg13g2_a22oi_1
+       54  489.888   sg13g2_and2_1
+       18  228.614   sg13g2_and3_1
+        7  101.606   sg13g2_and4_1
+        3   21.773   sg13g2_buf_1
+      110  598.752   sg13g2_inv_1
+     1305 2.37E+04   sg13g2_mux2_1
+      280 1.07E+04   sg13g2_mux4_1
+      214 1.55E+03   sg13g2_nand2_1
+       82  743.904   sg13g2_nand2b_1
+       54  489.888   sg13g2_nand3_1
+        4   50.803   sg13g2_nand3b_1
+       17  185.069   sg13g2_nand4_1
+      221  1603.93   sg13g2_nor2_1
+       60   544.32   sg13g2_nor2b_1
+       65   589.68   sg13g2_nor3_1
+       34  370.138   sg13g2_nor4_1
+      299 2.71E+03   sg13g2_o21ai_1
+       17  154.224   sg13g2_or2_1
+        5   63.504   sg13g2_or3_1
+        5   72.576   sg13g2_or4_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+       27   391.91   sg13g2_xnor2_1
+       39  566.093   sg13g2_xor2_1
+
+   Area for cell type $scopeinfo is unknown!
+   Area for cell type $_ALDFF_PN_ is unknown!
+   Area for cell type $_ALDFF_PP_ is unknown!
+
+   Chip area for module '\reg_uart_wrap$croc_chip.i_croc_soc.i_croc.i_uart': 49242.513600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst.i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst.i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src.i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src.i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst.i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst.i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src.i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src.i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_dst.i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        8        - wires
+        8        - wire bits
+        7        - public wires
+        7        - public wire bits
+        4        - ports
+        4        - port bits
+        4    7.258 cells
+        3        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_dst.i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_src.i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        8        - wires
+        8        - wire bits
+        7        - public wires
+        7        - public wire bits
+        4        - ports
+        4        - port bits
+        4    7.258 cells
+        3        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_src.i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst.i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst.i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src.i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src.i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst.i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst.i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src.i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src.i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_dst.i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        8        - wires
+        8        - wire bits
+        7        - public wires
+        7        - public wire bits
+        4        - ports
+        4        - port bits
+        4    7.258 cells
+        3        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_dst.i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_src.i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        8        - wires
+        8        - wire bits
+        7        - public wires
+        7        - public wire bits
+        4        - ports
+        4        - port bits
+        4    7.258 cells
+        3        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_src.i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[0].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[0].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[10].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[10].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[11].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[11].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[12].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[12].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[13].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[13].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[14].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[14].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[15].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[15].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[16].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[16].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[17].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[17].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[18].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[18].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[19].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[19].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[1].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[1].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[20].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[20].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[21].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[21].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[22].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[22].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[23].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[23].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[24].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[24].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[25].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[25].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[26].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[26].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[27].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[27].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[28].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[28].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[29].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[29].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[2].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[2].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[30].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[30].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[31].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[31].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[3].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[3].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[4].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[4].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[5].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[5].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[6].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[6].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[7].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[7].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[8].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[8].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[9].i_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[9].i_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== sync$croc_chip.i_croc_soc.i_ext_intr_sync ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        6        - public wires
+        6        - public wire bits
+        4        - ports
+        4        - port bits
+        3    7.258 cells
+        2        -   $_ALDFF_PN_
+        1    7.258   sg13g2_tielo
+
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\sync$croc_chip.i_croc_soc.i_ext_intr_sync': 7.257600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== tc_clk_inverter$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_jtag_tap.i_tck_inv ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        2        - wires
+        2        - wire bits
+        2        - public wires
+        2        - public wire bits
+        2        - ports
+        2        - port bits
+        1    5.443 cells
+        1    5.443   sg13g2_inv_1
+
+   Chip area for module '\tc_clk_inverter$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_jtag_tap.i_tck_inv': 5.443200
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== tc_clk_mux2$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_jtag_tap.i_dft_tck_mux ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        4        - wires
+        4        - wire bits
+        4        - public wires
+        4        - public wire bits
+        4        - ports
+        4        - port bits
+        1   18.144 cells
+        1   18.144   sg13g2_mux2_1
+
+   Chip area for module '\tc_clk_mux2$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_jtag_tap.i_dft_tck_mux': 18.144000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== tc_clk_mux2$croc_chip.i_croc_soc.i_rstgen.i_rstgen_bypass.i_tc_clk_mux2_init_no ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        4        - wires
+        4        - wire bits
+        4        - public wires
+        4        - public wire bits
+        4        - ports
+        4        - port bits
+        1   18.144 cells
+        1   18.144   sg13g2_mux2_1
+
+   Chip area for module '\tc_clk_mux2$croc_chip.i_croc_soc.i_rstgen.i_rstgen_bypass.i_tc_clk_mux2_init_no': 18.144000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== tc_clk_mux2$croc_chip.i_croc_soc.i_rstgen.i_rstgen_bypass.i_tc_clk_mux2_rst_n ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        4        - wires
+        4        - wire bits
+        4        - public wires
+        4        - public wire bits
+        4        - ports
+        4        - port bits
+        1   18.144 cells
+        1   18.144   sg13g2_mux2_1
+
+   Chip area for module '\tc_clk_mux2$croc_chip.i_croc_soc.i_rstgen.i_rstgen_bypass.i_tc_clk_mux2_rst_n': 18.144000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== tc_clk_mux2$croc_chip.i_croc_soc.i_rstgen.i_rstgen_bypass.i_tc_clk_mux2_rst_no ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        4        - wires
+        4        - wire bits
+        4        - public wires
+        4        - public wire bits
+        4        - ports
+        4        - port bits
+        1   18.144 cells
+        1   18.144   sg13g2_mux2_1
+
+   Chip area for module '\tc_clk_mux2$croc_chip.i_croc_soc.i_rstgen.i_rstgen_bypass.i_tc_clk_mux2_rst_no': 18.144000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== user_domain$croc_chip.i_croc_soc.i_user ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+      334        - wires
+      334        - wire bits
+      332        - public wires
+      332        - public wire bits
+      262        - ports
+      262        - port bits
+      117  948.931 cells
+       11        -   $_ALDFF_PN_
+        6        -   $scopeinfo
+        2   18.144   sg13g2_a21oi_1
+        3   43.546   sg13g2_a221oi_1
+       39  353.808   sg13g2_and2_1
+        4   50.803   sg13g2_and3_1
+       11   59.875   sg13g2_inv_1
+        4   72.576   sg13g2_mux2_1
+        3   21.773   sg13g2_nand2_1
+        2   18.144   sg13g2_nand2b_1
+        1    9.072   sg13g2_nand3_1
+        1   12.701   sg13g2_nand3b_1
+        5   36.288   sg13g2_nor2_1
+        8   72.576   sg13g2_nor2b_1
+        6   54.432   sg13g2_nor3_1
+        1   10.886   sg13g2_nor4_1
+        3   27.216   sg13g2_o21ai_1
+        1    7.258   sg13g2_tiehi
+        1    7.258   sg13g2_tielo
+        4   58.061   sg13g2_xnor2_1
+        1   14.515   sg13g2_xor2_1
+
+   Area for cell type $scopeinfo is unknown!
+   Area for cell type $_ALDFF_PN_ is unknown!
+
+   Chip area for module '\user_domain$croc_chip.i_croc_soc.i_user': 948.931200
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        |        +-Area including submodules.
+        |        | 
+    35284 1.45E+06 croc_chip
+        8   14.515 croc_soc$croc_chip.i_croc_soc
+    11504 3.01E+05   croc_domain$croc_chip.i_croc_soc.i_croc
+     4098 3.91E+04     core_wrap$croc_chip.i_croc_soc.i_croc.i_core_wrap
+     2976 2.65E+04       cve2_cs_registers$croc_chip.i_croc_soc.i_croc.i_core_wrap.i_ibex.cs_registers_i
+     3729 4.48E+04       cve2_register_file_ff$croc_chip.i_croc_soc.i_croc.i_core_wrap.i_ibex.register_file_i
+     4577 3.74E+04     dm_top$croc_chip.i_croc_soc.i_croc.i_dm_top.i_dm_top
+      981 7.51E+03     dmi_jtag$croc_chip.i_croc_soc.i_croc.i_dmi_jtag
+        9   43.546       cdc_2phase_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req
+       93 2.83E+03         cdc_2phase_dst_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_dst
+        4    7.258           sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_dst.i_sync
+       90 2.82E+03         cdc_2phase_src_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_src
+        4    7.258           sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_src.i_sync
+       64  524.248           cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a
+       13   87.091             cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst
+        3    7.258               sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst.i_sync
+       19  130.637             cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src
+        3    7.258               sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src.i_sync
+       64  524.248           cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b
+       13   87.091             cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst
+        3    7.258               sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst.i_sync
+       19  130.637             cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src
+        3    7.258               sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_req.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src.i_sync
+        9   43.546       cdc_2phase_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp
+       79 2.36E+03         cdc_2phase_dst_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_dst
+        4    7.258           sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_dst.i_sync
+       76 2.35E+03         cdc_2phase_src_clearable$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_src
+        4    7.258           sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_src.i_sync
+       64  522.434           cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a
+       13   87.091             cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst
+        3    7.258               sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_dst.i_sync
+       19  130.637             cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src
+        3    7.258               sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_a.i_state_transition_cdc_src.i_sync
+       64  524.248           cdc_reset_ctrlr_half$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b
+       13   87.091             cdc_4phase_dst$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst
+        3    7.258               sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_dst.i_sync
+       19  130.637             cdc_4phase_src$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src
+        3    7.258               sync$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_cdc.i_cdc_resp.i_cdc_reset_ctrlr.i_cdc_reset_ctrlr_half_b.i_state_transition_cdc_src.i_sync
+        1    5.443       tc_clk_inverter$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_jtag_tap.i_tck_inv
+        1   18.144       tc_clk_mux2$croc_chip.i_croc_soc.i_croc.i_dmi_jtag.i_dmi_jtag_tap.i_dft_tck_mux
+     1575 1.22E+04     gpio$croc_chip.i_croc_soc.i_croc.i_gpio
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[0].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[10].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[11].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[12].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[13].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[14].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[15].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[16].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[17].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[18].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[19].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[1].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[20].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[21].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[22].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[23].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[24].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[25].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[26].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[27].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[28].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[29].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[2].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[30].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[31].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[3].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[4].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[5].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[6].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[7].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[8].i_sync
+        3    7.258       sync$croc_chip.i_croc_soc.i_croc.i_gpio.gen_gpios[9].i_sync
+     4770 4.92E+04     reg_uart_wrap$croc_chip.i_croc_soc.i_croc.i_uart
+        3    7.258   sync$croc_chip.i_croc_soc.i_ext_intr_sync
+        1   18.144   tc_clk_mux2$croc_chip.i_croc_soc.i_rstgen.i_rstgen_bypass.i_tc_clk_mux2_init_no
+        1   18.144   tc_clk_mux2$croc_chip.i_croc_soc.i_rstgen.i_rstgen_bypass.i_tc_clk_mux2_rst_n
+        1   18.144   tc_clk_mux2$croc_chip.i_croc_soc.i_rstgen.i_rstgen_bypass.i_tc_clk_mux2_rst_no
+      117  948.931   user_domain$croc_chip.i_croc_soc.i_user
+
+        +----------Count including submodules.
+        |        +-Area including submodules.
+        |        | 
+    39115        - wires
+    39115        - wire bits
+    39022        - public wires
+    39022        - public wire bits
+     3389        - ports
+     3389        - port bits
+        -        - memories
+        -        - memory bits
+        -        - processes
+    35284 1.45E+06 cells
+     3863        -   $_ALDFF_PN_
+     1372        -   $_ALDFF_PP_
+      148        -   $scopeinfo
+        2 1.86E+05   RM_IHPSG13_1P_256x64_c2_bm_bist
+        4    57600   sg13g2_IOPadIOVdd
+        4    57600   sg13g2_IOPadIOVss
+        9   129600   sg13g2_IOPadIn
+       32   460800   sg13g2_IOPadInOut30mA
+        7   100800   sg13g2_IOPadOut16mA
+        4    57600   sg13g2_IOPadVdd
+        4    57600   sg13g2_IOPadVss
+      334 4.24E+03   sg13g2_a21o_1
+     2511 2.28E+04   sg13g2_a21oi_1
+      545 7.91E+03   sg13g2_a221oi_1
+     2137 2.32E+04   sg13g2_a22oi_1
+     1351 1.23E+04   sg13g2_and2_1
+      185 2.35E+03   sg13g2_and3_1
+      161 2.34E+03   sg13g2_and4_1
+       10   72.576   sg13g2_buf_1
+      150  7348.32   sg13g2_dfrbpq_1
+     2309 1.26E+04   sg13g2_inv_1
+     5211 9.45E+04   sg13g2_mux2_1
+      755 2.88E+04   sg13g2_mux4_1
+     1920 1.39E+04   sg13g2_nand2_1
+     1099 9.97E+03   sg13g2_nand2b_1
+      619 5.62E+03   sg13g2_nand3_1
+      407 5.17E+03   sg13g2_nand3b_1
+      407 4.43E+03   sg13g2_nand4_1
+     2796 2.03E+04   sg13g2_nor2_1
+     1047  9.5E+03   sg13g2_nor2b_1
+      807 7.32E+03   sg13g2_nor3_1
+      850  9253.44   sg13g2_nor4_1
+     3125    28350   sg13g2_o21ai_1
+      213 1.93E+03   sg13g2_or2_1
+       54  685.843   sg13g2_or3_1
+       53  769.306   sg13g2_or4_1
+       19  137.894   sg13g2_tiehi
+       74  537.062   sg13g2_tielo
+      396 5.75E+03   sg13g2_xnor2_1
+      290 4.21E+03   sg13g2_xor2_1
+        1 5.33E+05 submodules
+        1 5.33E+05   croc_soc$croc_chip.i_croc_soc
+
+   Area for cell type $scopeinfo is unknown!
+   Area for cell type $_ALDFF_PN_ is unknown!
+   Area for cell type $_ALDFF_PP_ is unknown!
+
+   Chip area for top module '\croc_chip': 1454180.303000
+     of which used for sequential elements: 7348.320000 (0.51%)
+
