@@ -1,0 +1,173 @@
+Startpoint: i_croc_soc/i_rstgen.i_rstgen_bypass.synch_regs_q_3__sg13g2_dfrbpq_1_Q
+            (rising edge-triggered flip-flop clocked by clk_sys)
+Endpoint: i_croc_soc/i_croc/i_uart/i_apb_uart.UART_RXFF.iFIFOMem_109__sg13g2_dfrbpq_1_Q
+          (recovery check against rising-edge clock clk_sys)
+Path Group: asynchronous
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_sys (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ i_croc_soc/i_rstgen.i_rstgen_bypass.synch_regs_q_3__sg13g2_dfrbpq_1_Q/CLK (sg13g2_dfrbpq_1)
+   0.16    0.16 ^ i_croc_soc/i_rstgen.i_rstgen_bypass.synch_regs_q_3__sg13g2_dfrbpq_1_Q/Q (sg13g2_dfrbpq_1)
+  50.09   50.25 ^ i_croc_soc/i_rstgen.i_rstgen_bypass.i_tc_clk_mux2_rst_no/i_mux/X (sg13g2_mux2_1)
+  24.97   75.22 v i_croc_soc/i_croc/i_uart/i_apb_uart.iRST_sg13g2_inv_1_Y/Y (sg13g2_inv_1)
+   1.07   76.29 v i_croc_soc/i_croc/i_uart/i_apb_uart.UART_RXFF.RST_sg13g2_buf_1_A/X (sg13g2_buf_1)
+   0.20   76.49 v i_croc_soc/i_croc/i_uart/i_apb_uart.UART_RXFF.RST_sg13g2_buf_1_A_X_sg13g2_buf_1_A_5/X (sg13g2_buf_1)
+   0.13   76.62 v i_croc_soc/i_croc/i_uart/i_apb_uart.UART_RXFF.RST_sg13g2_buf_1_A_X_sg13g2_buf_1_A_5_X_sg13g2_buf_1_A_9/X (sg13g2_buf_1)
+   0.14   76.77 v i_croc_soc/i_croc/i_uart/i_apb_uart.UART_RXFF.iFIFOMem_197__sg13g2_dfrbpq_1_Q_RESET_B_sg13g2_inv_1_Y_A_sg13g2_buf_1_X/X (sg13g2_buf_1)
+   0.06   76.82 ^ i_croc_soc/i_croc/i_uart/i_apb_uart.UART_RXFF.iFIFOMem_109__sg13g2_dfrbpq_1_Q_RESET_B_sg13g2_inv_1_Y/Y (sg13g2_inv_1)
+   0.00   76.82 ^ i_croc_soc/i_croc/i_uart/i_apb_uart.UART_RXFF.iFIFOMem_109__sg13g2_dfrbpq_1_Q/RESET_B (sg13g2_dfrbpq_1)
+          76.82   data arrival time
+
+  10.00   10.00   clock clk_sys (rise edge)
+   0.00   10.00   clock network delay (ideal)
+  -0.20    9.80   clock uncertainty
+   0.00    9.80   clock reconvergence pessimism
+           9.80 ^ i_croc_soc/i_croc/i_uart/i_apb_uart.UART_RXFF.iFIFOMem_109__sg13g2_dfrbpq_1_Q/CLK (sg13g2_dfrbpq_1)
+  -0.13    9.67   library recovery time
+           9.67   data required time
+---------------------------------------------------------
+           9.67   data required time
+         -76.82   data arrival time
+---------------------------------------------------------
+         -67.15   slack (VIOLATED)
+
+
+Startpoint: i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.instr_rdata_alu_id_o_sg13g2_dfrbpq_1_Q
+            (rising edge-triggered flip-flop clocked by clk_sys)
+Endpoint: i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.prefetch_buffer_i.fifo_i.rdata_q_48__sg13g2_dfrbpq_1_Q
+          (rising edge-triggered flip-flop clocked by clk_sys)
+Path Group: clk_sys
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_sys (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.instr_rdata_alu_id_o_sg13g2_dfrbpq_1_Q/CLK (sg13g2_dfrbpq_1)
+   0.68    0.68 v i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.instr_rdata_alu_id_o_sg13g2_dfrbpq_1_Q/Q (sg13g2_dfrbpq_1)
+   0.32    1.01 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.id_stage_i.decoder_i.alu_operator_o_sg13g2_nand3b_1_Y_C_sg13g2_a22oi_1_Y_A2_sg13g2_and3_1_X_C_sg13g2_nor4_1_Y_D_sg13g2_nor4_1_Y/Y (sg13g2_nor4_1)
+   0.19    1.19 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.id_stage_i.decoder_i.alu_operator_o_sg13g2_a21oi_1_Y_A1_sg13g2_nand3b_1_Y_B_sg13g2_and4_1_X_B_sg13g2_nor2b_1_Y/Y (sg13g2_nor2b_1)
+   0.18    1.37 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.id_stage_i.decoder_i.alu_operator_o_sg13g2_a21oi_1_Y_A1_sg13g2_nand3b_1_Y_B_sg13g2_and4_1_X/X (sg13g2_and4_1)
+   0.08    1.45 v i_croc_soc/i_croc/i_core_wrap/i_ibex.id_stage_i.decoder_i.alu_operator_o_sg13g2_a21oi_1_Y_A1_sg13g2_nand3b_1_Y/Y (sg13g2_nand3b_1)
+   0.14    1.59 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.id_stage_i.decoder_i.alu_operator_o_sg13g2_a21oi_1_Y/Y (sg13g2_a21oi_1)
+   0.15    1.74 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.is_equal_result_o_sg13g2_or3_1_A_B_sg13g2_nor3_1_Y_B_sg13g2_nand2_1_Y_B_sg13g2_and3_1_X_B_sg13g2_buf_2_X/X (sg13g2_buf_2)
+   0.14    1.88 v i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.is_equal_result_o_sg13g2_o21ai_1_A1_A2_sg13g2_nand3b_1_Y_B_sg13g2_nor2_2_Y_B_sg13g2_nand3b_1_Y/Y (sg13g2_nand3b_1)
+   0.09    1.97 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.is_equal_result_o_sg13g2_o21ai_1_A1_A2_sg13g2_nand3b_1_Y_B_sg13g2_nor2_2_Y/Y (sg13g2_nor2_2)
+   0.08    2.04 v i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.is_equal_result_o_sg13g2_o21ai_1_A1_A2_sg13g2_nand3b_1_Y_B_sg13g2_a221oi_1_B1/Y (sg13g2_a221oi_1)
+   0.12    2.16 v i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.is_equal_result_o_sg13g2_o21ai_1_A1_A2_sg13g2_nand3b_1_Y_B_sg13g2_a221oi_1_B1_Y_sg13g2_buf_4_A/X (sg13g2_buf_4)
+   0.05    2.21 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.is_equal_result_o_sg13g2_o21ai_1_A1_A2_sg13g2_nand3b_1_Y_B_sg13g2_a221oi_1_B1_Y_sg13g2_buf_4_A_X_sg13g2_nand3_1_C/Y (sg13g2_nand3_1)
+   0.14    2.35 v i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.adder_result_ext_o_sg13g2_xnor2_1_Y_18_A_sg13g2_or2_1_A_X_sg13g2_nor3_1_C_B_sg13g2_nand3_1_Y/Y (sg13g2_nand3_1)
+   0.17    2.52 v i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.adder_result_ext_o_sg13g2_xor2_1_X_11_B_sg13g2_xnor2_1_Y/Y (sg13g2_xnor2_1)
+   0.11    2.63 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.adder_result_ext_o_sg13g2_xnor2_1_Y_14_B_sg13g2_o21ai_1_Y_A2_sg13g2_a221oi_1_Y_B1_sg13g2_o21ai_1_Y/Y (sg13g2_o21ai_1)
+   0.09    2.73 v i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.adder_result_ext_o_sg13g2_xnor2_1_Y_14_B_sg13g2_o21ai_1_Y_A2_sg13g2_a221oi_1_Y/Y (sg13g2_a221oi_1)
+   0.19    2.92 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.adder_result_ext_o_sg13g2_xnor2_1_Y_14_B_sg13g2_o21ai_1_Y_A2_sg13g2_o21ai_1_A1/Y (sg13g2_o21ai_1)
+   0.18    3.09 v i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.adder_result_ext_o_sg13g2_xnor2_1_Y_10_B_sg13g2_and2_1_X_B_sg13g2_nand4_1_Y/Y (sg13g2_nand4_1)
+   0.15    3.25 v i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.adder_result_ext_o_sg13g2_xnor2_1_Y_10_B_sg13g2_and2_1_X_B_sg13g2_and3_2_B/X (sg13g2_and3_2)
+   0.11    3.36 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.adder_result_ext_o_sg13g2_xnor2_1_Y_5_B_sg13g2_or2_1_X_A_sg13g2_nor3_2_Y/Y (sg13g2_nor3_2)
+   0.09    3.45 v i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.adder_result_ext_o_sg13g2_xnor2_1_Y_2_B_sg13g2_and2_1_X_A_sg13g2_o21ai_1_Y/Y (sg13g2_o21ai_1)
+   0.16    3.61 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.adder_result_ext_o_sg13g2_xnor2_1_Y_B_sg13g2_nor2_1_Y_B_sg13g2_a221oi_1_Y/Y (sg13g2_a221oi_1)
+   0.11    3.72 v i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.adder_result_ext_o_sg13g2_xor2_1_X_B_sg13g2_nand2_1_Y_A_sg13g2_o21ai_1_Y/Y (sg13g2_o21ai_1)
+   0.06    3.78 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.adder_result_ext_o_sg13g2_xor2_1_X_B_sg13g2_nand2_1_Y_A_sg13g2_nand3_1_A/Y (sg13g2_nand3_1)
+   0.12    3.90 v i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.adder_result_ext_o_sg13g2_and2_1_X_A_sg13g2_nand3_1_Y/Y (sg13g2_nand3_1)
+   0.14    4.04 v i_croc_soc/i_croc/i_core_wrap/i_ibex.ex_block_i.alu_i.adder_result_ext_o_sg13g2_and2_1_X/X (sg13g2_and2_1)
+   0.04    4.08 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.fetch_addr_n_31__sg13g2_a22oi_1_Y_B1_sg13g2_o21ai_1_Y_A2_sg13g2_a22oi_1_Y_B2_sg13g2_inv_1_Y/Y (sg13g2_inv_1)
+   0.05    4.12 v i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.fetch_addr_n_31__sg13g2_a22oi_1_Y_B1_sg13g2_o21ai_1_Y_A2_sg13g2_a22oi_1_Y/Y (sg13g2_a22oi_1)
+   0.09    4.21 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.fetch_addr_n_31__sg13g2_a22oi_1_Y_B1_sg13g2_o21ai_1_Y/Y (sg13g2_o21ai_1)
+   0.11    4.32 v i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.fetch_addr_n_31__sg13g2_a22oi_1_Y/Y (sg13g2_a22oi_1)
+   0.06    4.38 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.prefetch_buffer_i.instr_addr_o_sg13g2_mux2_1_X_A1_sg13g2_o21ai_1_Y_B1_sg13g2_nand2_1_Y/Y (sg13g2_nand2_1)
+   0.05    4.42 v i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.prefetch_buffer_i.instr_addr_o_sg13g2_mux2_1_X_A1_sg13g2_o21ai_1_Y/Y (sg13g2_o21ai_1)
+   0.14    4.56 v i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.prefetch_buffer_i.instr_addr_o_sg13g2_mux2_1_X/X (sg13g2_mux2_1)
+   0.12    4.69 v i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_addr_decode.i_addr_decode_dync.idx_o_sg13g2_a221oi_1_Y_B2_sg13g2_nor2_1_Y_B_sg13g2_a21oi_1_Y_A2_sg13g2_a221oi_1_Y_B2_sg13g2_nor4_1_Y_A_sg13g2_nand3_1_Y_C_sg13g2_nor4_1_Y_C_sg13g2_nor2b_1_Y_A_sg13g2_buf_2_X/X (sg13g2_buf_2)
+   0.05    4.74 ^ i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_addr_decode.i_addr_decode_dync.idx_o_sg13g2_a221oi_1_Y_B2_sg13g2_nor2_1_Y_B_sg13g2_a21oi_1_Y_A2_sg13g2_a221oi_1_Y_C1_sg13g2_a21oi_1_Y_A1_sg13g2_o21ai_1_Y_A1_sg13g2_nor2_1_Y_B_sg13g2_inv_2_Y/Y (sg13g2_inv_2)
+   0.08    4.82 ^ i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_addr_decode.i_addr_decode_dync.idx_o_sg13g2_a221oi_1_Y_B2_sg13g2_nor2_1_Y_B_sg13g2_a21oi_1_Y_A2_sg13g2_a221oi_1_Y_C1_sg13g2_a21oi_1_Y_A1_sg13g2_o21ai_1_Y_A1_sg13g2_nor2_1_Y_B_sg13g2_buf_8_A/X (sg13g2_buf_8)
+   0.04    4.86 v i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_addr_decode.i_addr_decode_dync.idx_o_sg13g2_a221oi_1_Y_B2_sg13g2_nor2_1_Y_B_sg13g2_a21oi_1_Y_A2_sg13g2_a221oi_1_Y_C1_sg13g2_a21oi_1_Y_A1_sg13g2_o21ai_1_Y_A1_sg13g2_nor2_1_Y_B_sg13g2_nand2_1_B_Y_sg13g2_a221oi_1_B2_C1_sg13g2_nor2_1_Y/Y (sg13g2_nor2_1)
+   0.05    4.91 ^ i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_addr_decode.i_addr_decode_dync.idx_o_sg13g2_a221oi_1_Y_B2_sg13g2_nor2_1_Y_B_sg13g2_a21oi_1_Y_A2_sg13g2_a221oi_1_Y_C1_sg13g2_a21oi_1_Y_A1_sg13g2_o21ai_1_Y_A1_sg13g2_nor2_1_Y_B_sg13g2_nand2_1_B_Y_sg13g2_a221oi_1_B2_C1_sg13g2_nor2_1_A/Y (sg13g2_nor2_1)
+   0.17    5.08 ^ i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_addr_decode.i_addr_decode_dync.idx_o_sg13g2_a221oi_1_Y_B2_sg13g2_nor2_1_Y_B_sg13g2_a21oi_1_Y_A2_sg13g2_a221oi_1_Y_C1_sg13g2_a21oi_1_Y_A1_sg13g2_o21ai_1_Y_A1_sg13g2_nor2_1_Y_B_sg13g2_nand2_1_B_Y_sg13g2_and3_1_A_X_sg13g2_and4_1_A/X (sg13g2_and4_1)
+   0.12    5.20 v i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_addr_decode.i_addr_decode_dync.idx_o_sg13g2_a221oi_1_Y_B2_sg13g2_nor2_1_Y_B_sg13g2_a21oi_1_Y_A2_sg13g2_a221oi_1_Y_C1_sg13g2_a21oi_1_Y_A1_sg13g2_o21ai_1_Y_A1_sg13g2_nor2_1_Y_B_sg13g2_nand2_1_B_Y_sg13g2_a221oi_1_B2_A2_sg13g2_nand4_1_B/Y (sg13g2_nand4_1)
+   0.12    5.33 ^ i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_addr_decode.i_addr_decode_dync.idx_o_sg13g2_a221oi_1_Y_B2_sg13g2_nor2_1_Y_B_sg13g2_a21oi_1_Y_A2_sg13g2_a221oi_1_Y_C1_sg13g2_a21oi_1_Y_A1_sg13g2_o21ai_1_Y_A1_sg13g2_nor2_1_Y_B_sg13g2_nand2_1_B_Y_sg13g2_a221oi_1_B2_Y_sg13g2_o21ai_1_B1_A1_sg13g2_nor3_1_A/Y (sg13g2_nor3_1)
+   0.09    5.42 v i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_addr_decode.i_addr_decode_dync.idx_o_sg13g2_a221oi_1_Y_B2_sg13g2_nor2_1_Y_B_sg13g2_a21oi_1_Y_A2_sg13g2_a221oi_1_Y_C1_sg13g2_a21oi_1_Y_A1_sg13g2_o21ai_1_Y_A1_sg13g2_nor2_1_Y_B_sg13g2_nand2_1_B_Y_sg13g2_a221oi_1_B2_Y_sg13g2_o21ai_1_B1_Y_sg13g2_a21oi_1_B1/Y (sg13g2_a21oi_1)
+   0.17    5.59 ^ i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_addr_decode.i_addr_decode_dync.idx_o_sg13g2_a221oi_1_Y_B2_sg13g2_nor2_1_Y_B_sg13g2_a21oi_1_Y_A2_sg13g2_a221oi_1_Y_C1_sg13g2_a21oi_1_Y_A1_sg13g2_o21ai_1_Y_A1_sg13g2_nor2_1_Y_B_sg13g2_nand2_1_B_Y_sg13g2_a221oi_1_B2_Y_sg13g2_o21ai_1_B1_Y_sg13g2_a21oi_1_B1_Y_sg13g2_nor4_2_D/Y (sg13g2_nor4_2)
+   0.10    5.69 v i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_addr_decode.i_addr_decode_dync.idx_o_sg13g2_a221oi_1_Y_B2_sg13g2_nor2_1_Y/Y (sg13g2_nor2_1)
+   0.14    5.83 ^ i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_addr_decode.i_addr_decode_dync.idx_o_sg13g2_a221oi_1_Y_2/Y (sg13g2_a221oi_1)
+   0.13    5.97 ^ i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_demux.sbr_port_select_i_sg13g2_buf_2_A_2/X (sg13g2_buf_2)
+   0.09    6.06 ^ i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_demux.in_flight_sg13g2_and2_1_A_B_sg13g2_nand3_1_Y_C_sg13g2_xnor2_1_Y/Y (sg13g2_xnor2_1)
+   0.08    6.14 v i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_demux.in_flight_sg13g2_and2_1_A_B_sg13g2_nand3_1_Y/Y (sg13g2_nand3_1)
+   0.09    6.23 v i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_demux.in_flight_sg13g2_and2_1_A/X (sg13g2_and2_1)
+   0.11    6.34 ^ i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_demux.overflow_sg13g2_a21oi_2_B1/Y (sg13g2_a21oi_2)
+   0.09    6.44 v i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_demux.overflow_sg13g2_a21oi_2_B1_Y_sg13g2_nand3b_1_B/Y (sg13g2_nand3b_1)
+   0.11    6.55 v i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_demux.overflow_sg13g2_a21oi_2_B1_Y_sg13g2_nand3b_1_B_Y_sg13g2_buf_2_A/X (sg13g2_buf_2)
+   0.11    6.66 v i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_demux.overflow_sg13g2_a21oi_2_B1_Y_sg13g2_nand3b_1_B_Y_sg13g2_buf_2_A_X_sg13g2_buf_2_A_6/X (sg13g2_buf_2)
+   0.08    6.74 ^ i_croc_soc/i_croc/i_main_xbar.gen_demux[3].i_demux.mgr_ports_req_o_sg13g2_nor2_1_Y_215/Y (sg13g2_nor2_1)
+   0.11    6.84 ^ i_croc_soc/i_croc/i_main_xbar.gen_mux[1].i_mux.i_rr_arb.gen_arbiter.gen_int_rr.gen_lock.req_q_3__sg13g2_mux2_1_A1/X (sg13g2_mux2_1)
+   0.04    6.89 v i_croc_soc/i_croc/i_main_xbar.gen_mux[1].i_mux.i_rr_arb.gen_arbiter.gen_int_rr.gen_fair_arb.lower_mask_3__sg13g2_and3_1_X_C_sg13g2_inv_1_A/Y (sg13g2_inv_1)
+   0.14    7.03 ^ i_croc_soc/i_croc/i_main_xbar.gen_mux[1].i_mux.i_rr_arb.gen_arbiter.gen_int_rr.gen_fair_arb.lower_mask_3__sg13g2_and3_1_X_C_sg13g2_inv_1_A_Y_sg13g2_o21ai_1_A2/Y (sg13g2_o21ai_1)
+   0.14    7.17 ^ i_croc_soc/i_croc/i_main_xbar.gen_mux[1].i_mux.i_rr_arb.gen_arbiter.gen_int_rr.gen_fair_arb.lower_mask_3__sg13g2_and3_1_X_C_sg13g2_inv_1_A_Y_sg13g2_o21ai_1_A2_Y_sg13g2_buf_8_A/X (sg13g2_buf_8)
+   0.09    7.26 ^ i_croc_soc/i_croc/i_main_xbar.gen_mux[1].i_mux.i_rr_arb.gen_arbiter.gen_int_rr.gen_fair_arb.lower_mask_3__sg13g2_and3_1_X_C_sg13g2_inv_1_A_Y_sg13g2_o21ai_1_A2_Y_sg13g2_buf_8_A_X_sg13g2_buf_8_A/X (sg13g2_buf_8)
+   0.15    7.41 v i_croc_soc/i_croc/i_main_xbar.gen_mux[1].i_mux.i_rr_arb.data_o_sg13g2_mux2_1_X_16_A1_sg13g2_mux2_1_X/X (sg13g2_mux2_1)
+   0.13    7.54 v i_croc_soc/i_croc/i_main_xbar.gen_mux[1].i_mux.i_rr_arb.data_o_sg13g2_mux2_1_X_16/X (sg13g2_mux2_1)
+   0.12    7.66 v i_croc_soc/i_croc/i_addr_decode_periphs.i_addr_decode_dync.idx_o_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_S_sg13g2_nor2_1_Y_B_sg13g2_nor3_1_Y_B_sg13g2_a221oi_1_Y_A1_sg13g2_nand4_1_Y_A_sg13g2_nand2b_1_Y_B_sg13g2_buf_2_X/X (sg13g2_buf_2)
+   0.05    7.71 ^ i_croc_soc/i_croc/i_addr_decode_periphs.i_addr_decode_dync.dec_error_o_sg13g2_nor2_1_Y_B_sg13g2_nand3b_1_Y_B_sg13g2_or3_1_X_C_sg13g2_a221oi_1_Y_B1_sg13g2_nand3_1_Y_C_sg13g2_a21oi_1_Y_A2_sg13g2_or2_1_X_A_sg13g2_nor2_1_Y_B_sg13g2_inv_2_Y/Y (sg13g2_inv_2)
+   0.04    7.75 v i_croc_soc/i_croc/i_addr_decode_periphs.i_addr_decode_dync.idx_o_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_S_sg13g2_a221oi_1_Y_B2_sg13g2_a21oi_1_Y_A1_sg13g2_o21ai_1_Y_B1_sg13g2_a221oi_1_Y_C1_sg13g2_nor2_1_Y/Y (sg13g2_nor2_1)
+   0.11    7.85 v i_croc_soc/i_croc/i_addr_decode_periphs.i_addr_decode_dync.idx_o_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_S_sg13g2_a221oi_1_Y_B2_sg13g2_a21oi_1_Y_A1_sg13g2_o21ai_1_Y_B1_sg13g2_a221oi_1_Y_C1_sg13g2_nand3b_1_A_N/Y (sg13g2_nand3b_1)
+   0.11    7.96 ^ i_croc_soc/i_croc/i_addr_decode_periphs.i_addr_decode_dync.idx_o_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_S_sg13g2_a221oi_1_Y_B2_sg13g2_a21oi_1_Y_A1_sg13g2_o21ai_1_Y_A2_sg13g2_nand4_1_Y_A_sg13g2_nor4_2_Y/Y (sg13g2_nor4_2)
+   0.11    8.07 v i_croc_soc/i_croc/i_addr_decode_periphs.i_addr_decode_dync.idx_o_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_S_sg13g2_a221oi_1_Y_B2_sg13g2_a21oi_1_Y_A1_sg13g2_o21ai_1_Y_A2_sg13g2_nand4_1_Y/Y (sg13g2_nand4_1)
+   0.10    8.17 ^ i_croc_soc/i_croc/i_addr_decode_periphs.i_addr_decode_dync.idx_o_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_S_sg13g2_a221oi_1_Y_B2_sg13g2_a21oi_1_Y_A1_sg13g2_o21ai_1_Y/Y (sg13g2_o21ai_1)
+   0.07    8.24 v i_croc_soc/i_croc/i_addr_decode_periphs.i_addr_decode_dync.idx_o_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_S_sg13g2_a221oi_1_Y_B2_sg13g2_a21oi_1_Y/Y (sg13g2_a21oi_1)
+   0.27    8.51 ^ i_croc_soc/i_croc/i_addr_decode_periphs.i_addr_decode_dync.idx_o_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_S_sg13g2_a221oi_1_Y/Y (sg13g2_a221oi_1)
+   0.22    8.73 v i_croc_soc/i_croc/i_addr_decode_periphs.i_addr_decode_dync.idx_o_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X/X (sg13g2_mux2_1)
+   0.11    8.84 v i_croc_soc/i_croc/i_addr_decode_periphs.i_addr_decode_dync.idx_o_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X/X (sg13g2_mux2_1)
+   0.11    8.95 v i_croc_soc/i_croc/i_addr_decode_periphs.i_addr_decode_dync.idx_o_sg13g2_mux2_1_X_A0_sg13g2_mux2_1_X/X (sg13g2_mux2_1)
+   0.11    9.06 v i_croc_soc/i_croc/i_addr_decode_periphs.i_addr_decode_dync.idx_o_sg13g2_mux2_1_X/X (sg13g2_mux2_1)
+   0.12    9.18 v i_croc_soc/i_croc/i_obi_demux.sbr_port_select_i_sg13g2_buf_1_A_1/X (sg13g2_buf_1)
+   0.11    9.29 v i_croc_soc/i_croc/i_obi_demux.in_flight_sg13g2_nand4_1_A_B_sg13g2_nand3_1_Y_A_sg13g2_xnor2_1_Y/Y (sg13g2_xnor2_1)
+   0.04    9.33 ^ i_croc_soc/i_croc/i_obi_demux.in_flight_sg13g2_nand4_1_A_B_sg13g2_nand3_1_Y/Y (sg13g2_nand3_1)
+   0.22    9.55 v i_croc_soc/i_croc/i_obi_demux.in_flight_sg13g2_nand4_1_A/Y (sg13g2_nand4_1)
+   0.18    9.73 v i_croc_soc/i_croc/i_obi_demux.overflow_sg13g2_inv_1_A_Y_sg13g2_and4_1_B_1/X (sg13g2_and4_1)
+   0.10    9.83 v i_croc_soc/i_croc/i_obi_demux.overflow_sg13g2_inv_1_A_Y_sg13g2_and4_1_B_1_X_sg13g2_buf_8_A/X (sg13g2_buf_8)
+   0.08    9.91 v i_croc_soc/i_croc/i_obi_demux.overflow_sg13g2_inv_1_A_Y_sg13g2_and4_1_B_1_X_sg13g2_buf_8_A_X_sg13g2_buf_8_A_5/X (sg13g2_buf_8)
+   0.09   10.00 v i_croc_soc/i_croc/i_obi_demux.mgr_ports_req_o_sg13g2_and2_1_X_147/X (sg13g2_and2_1)
+   0.06   10.06 ^ i_croc_soc/i_croc/i_gpio/i_reg_file.w_err_d_sg13g2_a21oi_1_Y_B1_sg13g2_nand2_1_Y/Y (sg13g2_nand2_1)
+   0.05   10.12 v i_croc_soc/i_croc/i_gpio/i_reg_file.w_err_q_sg13g2_nand2_1_A/Y (sg13g2_nand2_1)
+   0.04   10.15 ^ i_croc_soc/i_croc/i_gpio/i_reg_file.obi_err_sg13g2_and2_1_X_B_sg13g2_nand2_1_Y/Y (sg13g2_nand2_1)
+   0.08   10.24 ^ i_croc_soc/i_croc/i_gpio/i_reg_file.obi_err_sg13g2_and2_1_X/X (sg13g2_and2_1)
+   0.05   10.29 v i_croc_soc/i_croc/i_obi_demux.sbr_port_rsp_o_sg13g2_mux2_1_X_35_A1_sg13g2_a21oi_1_Y_A1_sg13g2_nand2b_1_Y/Y (sg13g2_nand2b_1)
+   0.06   10.35 ^ i_croc_soc/i_croc/i_obi_demux.sbr_port_rsp_o_sg13g2_mux2_1_X_35_A1_sg13g2_a21oi_1_Y/Y (sg13g2_a21oi_1)
+   0.12   10.47 ^ i_croc_soc/i_croc/i_obi_demux.sbr_port_rsp_o_sg13g2_mux2_1_X_35/X (sg13g2_mux2_1)
+   0.09   10.56 ^ i_croc_soc/i_croc/i_main_xbar.gen_mux[1].i_mux.sbr_ports_rsp_o_sg13g2_and2_1_X_141/X (sg13g2_and2_1)
+   0.14   10.70 ^ i_croc_soc/i_croc/i_main_xbar.gen_demux[2].i_demux.sbr_port_rsp_o_sg13g2_o21ai_1_Y_33_A2_sg13g2_inv_1_Y_A_sg13g2_mux4_1_X/X (sg13g2_mux4_1)
+   0.03   10.73 v i_croc_soc/i_croc/i_main_xbar.gen_demux[2].i_demux.sbr_port_rsp_o_sg13g2_o21ai_1_Y_33_A2_sg13g2_inv_1_Y/Y (sg13g2_inv_1)
+   0.11   10.84 ^ i_croc_soc/i_croc/i_main_xbar.gen_demux[2].i_demux.sbr_port_rsp_o_sg13g2_o21ai_1_Y_33/Y (sg13g2_o21ai_1)
+   0.07   10.92 v i_croc_soc/i_croc/i_core_wrap/i_ibex.load_store_unit_i.data_err_i_sg13g2_o21ai_1_A2/Y (sg13g2_o21ai_1)
+   0.08   10.99 v i_croc_soc/i_croc/i_core_wrap/i_ibex.load_store_unit_i.load_err_o_sg13g2_nor2_1_Y_B_sg13g2_nor2b_1_Y/Y (sg13g2_nor2b_1)
+   0.11   11.11 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.load_store_unit_i.store_err_o_sg13g2_nor3_1_Y/Y (sg13g2_nor3_1)
+   0.07   11.18 v i_croc_soc/i_croc/i_core_wrap/i_ibex.id_stage_i.controller_i.load_err_i_sg13g2_nor2_1_B/Y (sg13g2_nor2_1)
+   0.04   11.22 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.id_stage_i.controller_i.load_err_i_sg13g2_nor2_1_B_Y_sg13g2_o21ai_1_B1/Y (sg13g2_o21ai_1)
+   0.09   11.31 v i_croc_soc/i_croc/i_core_wrap/i_ibex.id_stage_i.controller_i.load_err_i_sg13g2_nor2_1_B_Y_sg13g2_o21ai_1_B1_Y_sg13g2_a21oi_1_A2/Y (sg13g2_a21oi_1)
+   0.12   11.43 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.id_stage_i.controller_i.id_in_ready_o_sg13g2_and2_1_X_B_sg13g2_o21ai_1_Y/Y (sg13g2_o21ai_1)
+   0.14   11.57 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.id_stage_i.controller_i.id_in_ready_o_sg13g2_and2_1_X/X (sg13g2_and2_1)
+   0.15   11.72 v i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.prefetch_buffer_i.fifo_i.out_ready_i_sg13g2_o21ai_1_B1/Y (sg13g2_o21ai_1)
+   0.20   11.92 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.prefetch_buffer_i.fifo_i.out_ready_i_sg13g2_o21ai_1_B1_Y_sg13g2_nor2_2_B/Y (sg13g2_nor2_2)
+   0.06   11.98 v i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.prefetch_buffer_i.fifo_i.valid_d_2__sg13g2_nor3_1_Y_C_sg13g2_a21oi_2_A2_B1_sg13g2_a21oi_2_Y/Y (sg13g2_a21oi_2)
+   0.18   12.15 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.prefetch_buffer_i.fifo_i.valid_d_2__sg13g2_nor3_1_Y_C_sg13g2_a21oi_2_A2/Y (sg13g2_a21oi_2)
+   0.14   12.30 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.prefetch_buffer_i.fifo_i.valid_d_2__sg13g2_nor3_1_Y_C_sg13g2_a21oi_2_A2_Y_sg13g2_buf_8_A_1/X (sg13g2_buf_8)
+   0.15   12.45 v i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.prefetch_buffer_i.fifo_i.rdata_q_48__sg13g2_dfrbpq_1_Q_D_sg13g2_mux2_1_X/X (sg13g2_mux2_1)
+   0.00   12.45 v i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.prefetch_buffer_i.fifo_i.rdata_q_48__sg13g2_dfrbpq_1_Q/D (sg13g2_dfrbpq_1)
+          12.45   data arrival time
+
+  10.00   10.00   clock clk_sys (rise edge)
+   0.00   10.00   clock network delay (ideal)
+  -0.20    9.80   clock uncertainty
+   0.00    9.80   clock reconvergence pessimism
+           9.80 ^ i_croc_soc/i_croc/i_core_wrap/i_ibex.if_stage_i.prefetch_buffer_i.fifo_i.rdata_q_48__sg13g2_dfrbpq_1_Q/CLK (sg13g2_dfrbpq_1)
+  -0.12    9.68   library setup time
+           9.68   data required time
+---------------------------------------------------------
+           9.68   data required time
+         -12.45   data arrival time
+---------------------------------------------------------
+          -2.77   slack (VIOLATED)
+
+

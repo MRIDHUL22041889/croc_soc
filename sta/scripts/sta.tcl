@@ -18,5 +18,5 @@ link_design $top
 read_sdc ../sdc/time.sdc
 
 # Reports
-report_checks -path_group clk_sys -path_delay max > "reports/sta.rpt"
+report_checks -unique > "../reports/sta.rpt"
 

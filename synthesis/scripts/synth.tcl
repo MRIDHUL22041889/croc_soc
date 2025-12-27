@@ -94,7 +94,7 @@ yosys clean -purge
 
 yosys tee -q -o ${rep_dir}/${top_design}_instances.rpt  select -list "t:RM_IHPSG13_*"
 yosys tee -q -a ${rep_dir}/${top_design}_instances.rpt  select -list "t:tc_clk*$*"
-yosys flatten
+#yosys flatten
 yosys clean -purge
 
 # -----------------------------------------------------------------------------
