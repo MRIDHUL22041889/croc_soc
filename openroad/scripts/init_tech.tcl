@@ -47,13 +47,16 @@ set iofill [ list sg13g2_Filler10000 sg13g2_Filler4000 sg13g2_Filler2000 sg13g2_
 # the repair_timing/repair_design commands may try to use IO cells as buffers
 set dont_use_cells sg13g2_IOPad*
 #Track are where the wores connecting the standard cells are placed
-proc makeTracks {} {
-    utl::report "Metal Tracks"
-	make_tracks Metal1    -x_offset 0 -x_pitch 0.48 -y_offset 0 -y_pitch 0.48
-	make_tracks Metal2    -x_offset 0 -x_pitch 0.42 -y_offset 0 -y_pitch 0.42
-	make_tracks Metal3    -x_offset 0 -x_pitch 0.48 -y_offset 0 -y_pitch 0.48
-	make_tracks Metal4    -x_offset 0 -x_pitch 0.42 -y_offset 0 -y_pitch 0.42
-	make_tracks Metal5    -x_offset 0 -x_pitch 0.48 -y_offset 0 -y_pitch 0.48
-	make_tracks TopMetal1 -x_offset 1.46 -x_pitch 2.28 -y_offset 1.46 -y_pitch 2.28
-	make_tracks TopMetal2 -x_offset 2.00 -x_pitch 4.00 -y_offset 2.00 -y_pitch 4.00
+proc makeTracks {} { 
+	
+	utl::report "Metal Tracks" 
+	
+	
+	make_tracks Metal1 -x_offset 0 -x_pitch 0.48 -y_offset 0 -y_pitch 0.48 
+	make_tracks Metal2 -x_offset 0 -x_pitch 0.42 -y_offset 0 -y_pitch 0.42 
+	make_tracks Metal3 -x_offset 0 -x_pitch 0.48 -y_offset 0 -y_pitch 0.48 
+	make_tracks Metal4 -x_offset 0 -x_pitch 0.42 -y_offset 0 -y_pitch 0.42 
+	make_tracks Metal5 -x_offset 0 -x_pitch 0.48 -y_offset 0 -y_pitch 0.48 
+	make_tracks TopMetal1 -x_offset 1.46 -x_pitch 2.28 -y_offset 1.46 -y_pitch 2.28 
+	make_tracks TopMetal2 -x_offset 2.00 -x_pitch 4.00 -y_offset 2.00 -y_pitch 4.00 
 }
