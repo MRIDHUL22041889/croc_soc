@@ -40,7 +40,7 @@ set stripe_dist [expr $sramHeight - 50]
 #defined pnd ring for macro
 define_pdn_grid -macro -cells $macro -name sram_256x64_grid -orient "R0 R180 MY MX" \
         -grid_over_boundary -voltage_domains {CORE} \
-        -halo {1 1}
+        -halo {5 5}
 
 #create power ring
 add_pdn_ring -grid {core_grid}  -layer {TopMetal1 TopMetal2} -widths "10 10" -spacings "6 6" -pad_offsets  "6 6" -add_connect -connect_to_pads  -connect_to_pad_layers TopMetal2
@@ -61,7 +61,7 @@ set mpgSpacing 4
 set mpgOffset 20;
 
 #create power ring macro
-    add_pdn_ring -grid  sram_256x64_grid -layer {Metal3 Metal4} -widths "$mprWidth $mprWidth" -spacings "$mprSpacing $mprSpacing" -core_offsets "$mprOffsetX $mprOffsetY"  -add_connect
+    add_pdn_ring -grid  sram_256x64_grid -layer {Metal5 Metal4} -widths "$mprWidth $mprWidth" -spacings "$mprSpacing $mprSpacing" -core_offsets "$mprOffsetX $mprOffsetY"  -add_connect
 
 #create power stripes
 add_pdn_stripe -grid {core_grid} -layer {Metal1} -width {0.44} -offset {0} -followpins -extend_to_core_ring
@@ -73,7 +73,7 @@ add_pdn_stripe -grid  sram_256x64_grid  -layer {TopMetal1} -width $mpgWidth -spa
 
 add_pdn_connect -grid  sram_256x64_grid -layers {Metal3 Metal1}
 add_pdn_connect -grid  sram_256x64_grid -layers {TopMetal1 Metal3}
-add_pdn_connect -grid  sram_256x64_grid -layers {TopMetal1 Metal4}
+add_pdn_connect -grid sram_256x64_grid -layers {Metal3 Metal4}
 add_pdn_connect -grid  sram_256x64_grid -layers {TopMetal2 TopMetal1}
 
 

@@ -107,6 +107,6 @@ place_io_fill -row IO_EAST   {*}$iofill
 
 connect_by_abutment
 
-place_bondpad -bond bondpad_70x70 -offset {5.0 -70.0} pad_*
+place_bondpad -bond bondpad_70x70 pad_*
 
-remove_io_rows
+#remove_io_rows
